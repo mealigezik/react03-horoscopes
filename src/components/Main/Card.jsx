@@ -12,9 +12,7 @@ const Card = (data) => {
       </div>
       <img src={data.image} alt={data.title} />
       <div className="card-over">
-        <p>
-            {data.desc}
-        </p>
+        <p>{data.desc}</p>
       </div>
     </div>
   );
