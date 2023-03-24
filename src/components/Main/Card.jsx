@@ -8,7 +8,7 @@ const Card = (data) => {
         <h1>{data.title}</h1>
       </div>
       <div className="date">
-        <h1>{data.date}</h1>
+        <h6>{data.date}</h6>
       </div>
       <img src={data.image} alt={data.title} />
       <div className="card-over">
