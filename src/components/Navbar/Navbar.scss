@@ -27,6 +27,8 @@
           background-color: $secondaryColor;
         //   color: $cardNavBgColor;
           border-radius: 0.4rem;
+          color: $cardNavBgColor;
+          transition: .7s;
       }
     }
   }
@@ -35,10 +37,4 @@
     width: 100px;
     height: 100px;
   }
-}
-
-@include media-xsm{
-    .links{
-        
-    }
 }
